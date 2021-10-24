@@ -1,1 +1,0 @@
-package hw3Q2variableAndMethod;
