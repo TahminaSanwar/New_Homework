@@ -1,18 +1,11 @@
 package hw7Q3Abstraction;
 
-public class ColumbiaUniversity {//needs to be an abstract class to create an abstract method
+public class ColumbiaUniversity extends NYUniversity{//A regular class can inherit one regular class or 1 abstract class
 	
-	public ColumbiaUniversity() {//Default Constructor can be created inside a regular class
-	
-	public abstract void chemistry();//The abstract method chemistry in type ColumbiaUniversity can only be defined by an abstract class
-	
-}
-	
-	public void biology() {
-		System.out.println("Biology is an interesting subject");
-}
 }	
 
-//extends keyword is used for the inheritance in Java for a regular Class
-//yes a regular Class inherit other Abstract Class or a regular class or interface
-//Single Inheritance, Multi-Level Inheritance, Hierarchical Inheritance, Multiple Inheritance
+/*3-2) iii)
+ * 1 keyword is used for the inheritance in Java for Abstract Class
+ * regular Class inherit other Abstract Class or a regular class but not an interface by extends keyword
+ * Regular class can inherit 1 regular or 1 abstract class 
+ */
