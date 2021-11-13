@@ -1,19 +1,16 @@
 package hw7Q3Abstraction;
 
 public interface College {
-	
-	//public College() {//interface can not have constructor. 
-		              //Interface cannot be instantiated cannot create object
+
+	// public College() {//interface can not have constructor.
+	// Interface cannot be instantiated cannot create object
+
+	default void dorm() {
+
 	}
-	public void commonRoom();
-	public void laboratory();
-	public void languageClub();
-	default void dorm () {
-		
-	}
+
 	public static void studyRoom() {
-		
-		
-	}	
+
+	}
 
 }
