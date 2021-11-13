@@ -1,8 +1,15 @@
 package hw7Q3Abstraction;
 
-public abstract class MedicalSchool extends NursingSchool { //Abstract class can inherit one regular or abstract class 
+public abstract class MedicalSchool extends NursingSchool {//Inheritance
 	
+	public void anatomyLab() {
+		System.out.println("I wish I could be a medical school student");
+		
+		
 	}
+	public abstract void biochemistryLab();
+
+}
 
 
 /*3-2) ii)
