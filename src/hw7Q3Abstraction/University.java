@@ -1,16 +1,10 @@
 package hw7Q3Abstraction;
 
-public interface University {
-
-	default void gymnasium() {
-	}
-
-	public static void library() {
-	}
-
+public interface University extends College, Hospital {
+	
 }
-//Here is the answer of the question.
 
+	
 /*
  * 3-2) i) extends keyword is used for the inheritance in Interface
  * an Interface cannot inherit a regular class or abstract class. But it can inherit more than one interface
