@@ -33,7 +33,7 @@ public class TestAboutUS {
 		aboutUs2.aboutUs(); //Method initialized
 		
 		
-		 main
+		 
 		 
 		
 	

@@ -4,7 +4,7 @@ public abstract class ColumbiaUniversity extends MedicalSchool{//Inheritance
 	
 	public ColumbiaUniversity() {//Default Constructor can be created inside a regular class
 	
-	public abstract void chemistry();//The abstract method chemistry in type ColumbiaUniversity can only be defined by an abstract class
+	//public abstract void chemistry();//The abstract method chemistry in type ColumbiaUniversity can only be defined by an abstract class
 	
 }
 	

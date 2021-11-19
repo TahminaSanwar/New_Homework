@@ -1,6 +1,6 @@
-package hw8Q3Abstraction;
+package hw9Q2Abstraction;
 
-public abstract class EngineeringSchool  extends NYUniversity{
+public abstract class EngineeringSchool extends NYUniversity {
 	public EngineeringSchool() { //Default Constructor
 		
 		

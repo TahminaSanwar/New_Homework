@@ -1,6 +1,6 @@
-package hw8Q3Abstraction;
+package hw9Q2Abstraction;
 
-public abstract class NursingSchool extends RockefellerUniversity {
+public abstract class NursingSchool extends RockefellerUniversity implements LawSchool {
 	
 	
 	

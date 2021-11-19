@@ -1,4 +1,4 @@
-package hw8Q3Abstraction;
+ package hw9Q2Abstraction;
 
 public class RockefellerUniversity extends EngineeringSchool implements AeronauticalSchool {
 	
@@ -17,7 +17,7 @@ public class RockefellerUniversity extends EngineeringSchool implements Aeronaut
 
 	@Override
 	public void computerLab() {
-		// TODO Auto-generated method stub
+		System.out.println("This method is from EngineeringSchool Abstract Class");
 		
 	}
 }

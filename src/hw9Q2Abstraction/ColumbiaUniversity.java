@@ -1,4 +1,8 @@
-package hw8Q3Abstraction;
+package hw9Q2Abstraction;
+
+import hw8Q3Abstraction.MedicalSchool;
+import hw8Q3Abstraction.University;
+import hw8Q3Abstraction.VocationalSchool;
 
 public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool{//Inheritance
 	
@@ -8,19 +12,21 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	
 }
 	
-	public void biology() {
+	public static void biology() {
 		System.out.println("Biology is an interesting subject");
+		
+		public default void communityCollege() {
 }
 
 	@Override
 	public void biochemistryLab() {
-		// TODO Auto-generated method stub
+		System.out.println("This method is from MedicalSchool Abstract Class");
 		
 	}
 
 	@Override
 	public void caring() {
-		// TODO Auto-generated method stub
+		System.out.println("This method is from NursingSchool Abstract Class");
 		
 	}
 }	
