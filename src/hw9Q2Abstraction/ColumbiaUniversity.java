@@ -14,9 +14,9 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	
 	public static void biology() {
 		System.out.println("Biology is an interesting subject");
+	}
+	
 		
-		public default void communityCollege() {
-}
 
 	@Override
 	public void biochemistryLab() {
@@ -27,6 +27,11 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	@Override
 	public void caring() {
 		System.out.println("This method is from NursingSchool Abstract Class");
+		
+	}
+
+	public void communityCollege() {
+		
 		
 	}
 }	
